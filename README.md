@@ -32,7 +32,50 @@ Similar syntax as C, Java, and Perl.
 
 ### Operational trail (request-response cycle)
 
+![PHP request-response cycle](https://github.com/tdnvl/PHP-essential-training/blob/master/img/request-response-cycle.jpg)
 
+### Code comments
 
+Single line comments are:
 
+```
+<?php
+    // This is a single line comment
+?>
+```
 
+Multi-line comments are:
+
+```
+<?php
+/*  This is a multi-line
+    comment. Great if you want
+    to type a bunch of stuff.
+*/
+?>
+```
+
+Not output, not processed.
+
+## Data types
+
+### Variables
+
++ start with a `$`
++ followed by a letter or an underscore
++ Can contain letter, numbers, underscores, or dashes
++ No spaces
++ Case sensitive
+
+Stay away from single or multiple initial underscores.
+Avoid dashes as separators: `$this-variable` could be read as this _minus_ variable.
+See the [list of PHP reserved keywords.](http://php.net/manual/en/reserved.php#reserved)
+
+Assignment: `$var1 = 10;`
+
+### Strings
+Defined in single or double quotation marks.
+
+### String functions
+
+`.=` is the concatenation equivalent of `+=` or `-=`.

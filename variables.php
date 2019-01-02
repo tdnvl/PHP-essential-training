@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Hello, world!</title>
+  <title>Variables</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,7 +21,15 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <?php echo "Hello" . ", world!"; ?>
+  <?php
+
+  $var1 = 10;
+  echo "var1 is equal to " . $var1;
+  echo "<br />"; // I can echo some HTML in the middle of some PHP without having to close and reopen. Sweet.
+  $var1 = 100;
+  echo "var1 is equal to " . $var1;
+
+  ?>
   
 </body>
 

@@ -27,6 +27,11 @@ Similar syntax as C, Java, and Perl.
 
 ### Output dynamic text
 
++ Concatenation through `.`
++ `<?php echo "Hello" . ", world!"; ?>`
+
+### Operational trail (request-response cycle)
+
 
 
 

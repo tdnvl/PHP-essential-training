@@ -79,3 +79,20 @@ Defined in single or double quotation marks.
 ### String functions
 
 `.=` is the concatenation equivalent of `+=` or `-=`.
+For [a full list of string functions](http://php.net/manual/en/ref.strings.php), see the PHP documentation.
+
+### Numbers part 1: Integers
+
+Basic math applies. A bunch of functions are helpfull, too: `rand()`, `sqrt()`, `fmod()`, etc. 
+For [a full list of math functions](http://php.net/manual/en/ref.math.php), see the PHP documentation.
+`+=`, `-=`, etc. works as expected. So does `++` and `--`.
+Don't rely on PHP to turn strings into integers—sloppy programming!
+
+### Numbers part 2: Floating points
+Round `round(value,decimals)` shows the `decimals` value of decimals. `round(3.14,1)` will return `3.1`.
+Ceiling `ceil()` rounds up.
+Floor `floor()` rounds down.
+Some convenient tests like `is_int()` or `is_float()` return boolean values.
+
+
+
